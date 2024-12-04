@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f54c141-ac2d-480e-afcd-5114b317f45d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DIO_Python_Basico.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/wilde.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentos/Primeiros_Passos/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentos/Primeiros_Passos/primeiro_programa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentos/Tipos_de_dados/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentos/Tipos_de_dados/tipos_de_dados.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fundamentos/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 - POO/05 - Encapsulamento/exemplo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 - POO/06 - Polimorfismo/conceito.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 - POO/07 - Atributos de classe ou instância/conceito.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 - POO/08 - Métodos de classe e métodos estáticos/conceito.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 - POO/09 - Classes abstratas/conceitos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DIO_Python_Basico.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DIO_Python_Basico.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02 - POO/02 - Classes e Objetos/meu_primeiro_programa.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 - POO/01 - Classes e Objetos/meu_primeiro_programa.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GhortheBrute&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GhortheBrute/DIO_Python_Basico.git&quot;,
+    &quot;accountId&quot;: &quot;49ffd1af-7f4f-4d28-89ae-8d866282cd6f&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -51,19 +60,24 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python.conceito.executor": "Run",
+    "Python.conceitos.executor": "Run",
+    "Python.exemplo.executor": "Run",
     "Python.primeiro_programa.executor": "Run",
     "Python.tipos_de_dados.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "settings.editor.selected.configurable": "settings.sync"
+    "last_opened_file_path": "E:/OneDrive - Grupo Marista/Codes/Python/DIO/Python Basico/DIO_Python_Basico",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-337b0a7a993a-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.19416.19" />
+        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
       </set>
     </attachedChunks>
   </component>
@@ -80,6 +94,17 @@
       <updated>1732573370618</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
