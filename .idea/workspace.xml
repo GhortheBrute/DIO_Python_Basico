@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f54c141-ac2d-480e-afcd-5114b317f45d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/02 - POO/05 - Encapsulamento/exemplo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02 - POO/06 - Polimorfismo/conceito.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02 - POO/07 - Atributos de classe ou instância/conceito.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02 - POO/08 - Métodos de classe e métodos estáticos/conceito.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02 - POO/09 - Classes abstratas/conceitos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DIO_Python_Basico.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DIO_Python_Basico.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1f54c141-ac2d-480e-afcd-5114b317f45d" name="Changes" comment="Módulo POO concluído.">
+      <change afterPath="$PROJECT_DIR$/03 - Decoradores, Iteradores e Geradores/exemplo_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03 - Decoradores, Iteradores e Geradores/exemplo_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03 - Decoradores, Iteradores e Geradores/exemplo_03.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02 - POO/02 - Classes e Objetos/meu_primeiro_programa.py" beforeDir="false" afterPath="$PROJECT_DIR$/02 - POO/01 - Classes e Objetos/meu_primeiro_programa.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +58,9 @@
     "Python.conceito.executor": "Run",
     "Python.conceitos.executor": "Run",
     "Python.exemplo.executor": "Run",
+    "Python.exemplo_01.executor": "Run",
+    "Python.exemplo_02.executor": "Run",
+    "Python.exemplo_03.executor": "Run",
     "Python.primeiro_programa.executor": "Run",
     "Python.tipos_de_dados.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -93,6 +91,15 @@
       <option name="presentableId" value="Default" />
       <updated>1732573370618</updated>
     </task>
+    <task id="LOCAL-00001" summary="Módulo POO concluído.">
+      <option name="closed" value="true" />
+      <created>1733278742244</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733278742244</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,5 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Módulo POO concluído." />
+    <option name="LAST_COMMIT_MESSAGE" value="Módulo POO concluído." />
   </component>
 </project>
