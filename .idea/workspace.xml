@@ -4,10 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f54c141-ac2d-480e-afcd-5114b317f45d" name="Changes" comment="Módulo POO concluído.">
-      <change afterPath="$PROJECT_DIR$/03 - Decoradores, Iteradores e Geradores/exemplo_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03 - Decoradores, Iteradores e Geradores/exemplo_02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03 - Decoradores, Iteradores e Geradores/exemplo_03.py" afterDir="false" />
+    <list default="true" id="1f54c141-ac2d-480e-afcd-5114b317f45d" name="Changes" comment="Lidando com data, metade">
+      <change afterPath="$PROJECT_DIR$/04 - Data e hora/desafio_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04 - Data e hora/desafio_solucao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04 - Data e hora/exemplo_03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04 - Data e hora/exemplo_04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04 - Data e hora/slide_04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04 - Data e hora/teste.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05 - Manipulação de arquivos/Desafios/desafio_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05 - Manipulação de arquivos/Desafios/desafio_professor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05 - Manipulação de arquivos/Desafios/desafio_resolucao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05 - Manipulação de arquivos/arquivo-utf-8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05 - Manipulação de arquivos/example.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05 - Manipulação de arquivos/example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05 - Manipulação de arquivos/examplo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05 - Manipulação de arquivos/exemplo_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05 - Manipulação de arquivos/exemplo_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05 - Manipulação de arquivos/exemplo_04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05 - Manipulação de arquivos/exemplo_05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05 - Manipulação de arquivos/exemplo_06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05 - Manipulação de arquivos/exemplo_07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05 - Manipulação de arquivos/lorem.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05 - Manipulação de arquivos/novo-diretorio/novo-arquivo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05 - Manipulação de arquivos/slide_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05 - Manipulação de arquivos/slide_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05 - Manipulação de arquivos/slide_03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05 - Manipulação de arquivos/slide_04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05 - Manipulação de arquivos/slide_05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05 - Manipulação de arquivos/slide_06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05 - Manipulação de arquivos/slide_07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05 - Manipulação de arquivos/teste.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05 - Manipulação de arquivos/usuarios.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +50,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -57,21 +89,49 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Python.conceito.executor": "Run",
     "Python.conceitos.executor": "Run",
+    "Python.decorador_01.executor": "Run",
+    "Python.decorador_02.executor": "Run",
+    "Python.decorador_03.executor": "Run",
+    "Python.decorador_04.executor": "Run",
+    "Python.desafio_base.executor": "Run",
+    "Python.desafio_final.executor": "Run",
+    "Python.desafio_resolucao.executor": "Run",
+    "Python.desafio_resposta.executor": "Run",
     "Python.exemplo.executor": "Run",
     "Python.exemplo_01.executor": "Run",
     "Python.exemplo_02.executor": "Run",
     "Python.exemplo_03.executor": "Run",
+    "Python.exemplo_04.executor": "Run",
+    "Python.exemplo_05.executor": "Run",
+    "Python.exemplo_06.executor": "Run",
+    "Python.exemplo_07.executor": "Run",
+    "Python.introspeccao_01.executor": "Run",
+    "Python.iterador_01.executor": "Run",
     "Python.primeiro_programa.executor": "Run",
+    "Python.slide_02.executor": "Run",
+    "Python.slide_03.executor": "Run",
+    "Python.slide_04.executor": "Run",
+    "Python.slide_07.executor": "Run",
+    "Python.teste.executor": "Run",
     "Python.tipos_de_dados.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/OneDrive - Grupo Marista/Codes/Python/DIO/Python Basico/DIO_Python_Basico",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "last_opened_file_path": "C:/Users/wilde/OneDrive - Grupo Marista/Codes/Python/DIO/Python Basico/DIO_Python_Basico/03 - Decoradores, Iteradores e Geradores/desafio_resposta.py",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "two.files.diff.last.used.file": "C:/Users/wilde/OneDrive - Grupo Marista/Codes/Python/DIO/Python Basico/DIO_Python_Basico/03 - Decoradores, Iteradores e Geradores/desafio_resposta.py"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wilde\OneDrive - Grupo Marista\Codes\Python\DIO\Python Basico\DIO_Python_Basico\05 - Manipulação de arquivos" />
+      <recent name="C:\Users\wilde\OneDrive - Grupo Marista\Codes\Python\DIO\Python Basico\DIO_Python_Basico\03 - Decoradores, Iteradores e Geradores" />
+      <recent name="C:\Users\wilde\OneDrive - Grupo Marista\Codes\Python\DIO\Python Basico\DIO_Python_Basico\03 - Decoradores, Iteradores e Geradores\Iteradores" />
+      <recent name="C:\Users\wilde\OneDrive - Grupo Marista\Codes\Python\DIO\Python Basico\DIO_Python_Basico\03 - Decoradores, Iteradores e Geradores\Decoradores" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -99,8 +159,35 @@
       <option name="project" value="LOCAL" />
       <updated>1733278742244</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Decoradores parte 1">
+      <option name="closed" value="true" />
+      <created>1733282727585</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733282727585</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Decoradores, Iteradores, Geradores e Desafio concluídos.">
+      <option name="closed" value="true" />
+      <created>1733620220951</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733620220951</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Lidando com data, metade">
+      <option name="closed" value="true" />
+      <created>1733679031270</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733679031270</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -116,6 +203,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Módulo POO concluído." />
-    <option name="LAST_COMMIT_MESSAGE" value="Módulo POO concluído." />
+    <MESSAGE value="Decoradores parte 1" />
+    <MESSAGE value="Decoradores, Iteradores, Geradores e Desafio concluídos." />
+    <MESSAGE value="Lidando com data, metade" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lidando com data, metade" />
   </component>
 </project>

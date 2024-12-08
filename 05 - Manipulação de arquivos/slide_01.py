@@ -1,0 +1,3 @@
+file = open("example.txt", "r")
+# ... Fazemos algo com o arquivo ...
+file.close()
