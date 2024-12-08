@@ -239,7 +239,6 @@ def log_transacao(func):
                 f"[{data_hora}] Função '{func.__name__}' executada com argumentos {args} e {kwargs}. "
                 f"Retornou {resultado}\n"
             )
-        # TODO: alterar a implementação para salvar em arquivo.
         # f"[{data_hora}] Função '{func.__name__}' executada com argumentos {args} e {kwargs}. Retornou {result}\n"
         #print(f"{data_hora}: {func.__name__.upper()}")
         return resultado
@@ -271,7 +270,7 @@ def recuperar_conta_cliente(cliente):
         print("\n@@@ Cliente não possui conta! @@@")
         return
 
-    # FIXME: não permite cliente escolher a conta
+
     return cliente.contas[0]
 
 
