@@ -17,7 +17,7 @@ def inserir_registro(conexao, cursor, nome, email):
     )
     conexao.commit()
 
-def inserir_mais_registros(conexao, cursor, nome, email):
+def inserir_muitos(conexao, cursor, nome, email):
     data = (
         {"nome": "Carvalho", "email": "carv@gmail.com"},
         {"nome": "Fortran", "email": "fort@gmail.com"},
@@ -33,5 +33,25 @@ def atualizar_registro(conexao, cursor, nome, email, id):
     conexao.commit()
 
 
+def deletar_registro(conexao, cursor, id):
+    cursor.execute("DELETE FROM clientes WHERE id=?;", (id,))
+    conexao.commit()
 
-atualizar_registro(conexao, cur, "Giovanna", "giovanna@gmail.com",5)
+
+def selecionar_unico_registro(cursor, id):
+    cursor.execute("SELECT * FROM clientes WHERE id=?;", (id,))
+    registro = cursor.fetchone()
+    print(registro)
+
+
+def listar_clientes(cursor):
+    cursor.execute("SELECT * FROM clientes ORDER BY nome ASC")
+    registros = cursor.fetchall()
+    for registro in registros:
+        print(registro)
+
+
+# atualizar_registro(conexao, cur, "Giovanna", "giovanna@gmail.com",5)
+# deletar_registro(conexao, cur, 5 )
+#selecionar_unico_registro(conexao, cur, 3)
+listar_clientes(cur)
