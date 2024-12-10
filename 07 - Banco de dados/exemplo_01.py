@@ -39,9 +39,11 @@ def deletar_registro(conexao, cursor, id):
 
 
 def selecionar_unico_registro(cursor, id):
+    cursor.row_factory = sqlite3.Row
     cursor.execute("SELECT * FROM clientes WHERE id=?;", (id,))
     registro = cursor.fetchone()
-    print(registro)
+    registros = cursor.fetchall()
+    print(dict(registro))
 
 
 def listar_clientes(cursor):
@@ -53,5 +55,5 @@ def listar_clientes(cursor):
 
 # atualizar_registro(conexao, cur, "Giovanna", "giovanna@gmail.com",5)
 # deletar_registro(conexao, cur, 5 )
-#selecionar_unico_registro(conexao, cur, 3)
-listar_clientes(cur)
+selecionar_unico_registro( cur, 3)
+#listar_clientes(cur)
