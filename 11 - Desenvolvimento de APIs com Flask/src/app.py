@@ -1,30 +1,75 @@
-from flask import Flask, url_for
+import os
+from datetime import datetime
 
-app = Flask(__name__)
 
-@app.route('/olamundo/<usuario>/<int:idade>/<float:altura>')
-def hello_world(usuario, idade, altura):
-    return {
-        'usuário': usuario,
-        'idade': idade,
-        'altura': altura
-    }
+import click
+from flask import Flask, current_app
+from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import Integer, String, DateTime, func, ForeignKey
+from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 
-@app.route('/bemvindo')
-def bem_vindo():
-    return {"message": "Olá mundo!"}
 
-@app.route('/projects/')
-def projects():
-    return f"<h1>Projects</h1>"
+class Base(DeclarativeBase):
+    pass
 
-@app.route('/about')
-def about():
-    return f"<h1>About</h1>"
 
-with app.test_request_context():
-    url = '/about'
-    print(url_for('hello_world', usuario="John Doe", idade=35, altura=1.74))
-    print(url_for('projects'))
-    print(url_for('about', next='/'))
-    print(url_for('bem_vindo'))
+db = SQLAlchemy(model_class=Base)
+
+class User(db.Model):
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    username: Mapped[str] = mapped_column(String, unique=True, nullable=False)
+
+    def __repr__(self) -> str:
+        return f'User(id={self.id!r}, username={self.username!r})'
+
+
+class Post(db.Model):
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    title: Mapped[str] = mapped_column(String, nullable=False)
+    body: Mapped[str] = mapped_column(String, nullable=False)
+    created: Mapped[datetime] = mapped_column(DateTime, server_default=func.now())
+    author_id: Mapped[int] = mapped_column(Integer, ForeignKey('user.id'))
+
+    def __repr__(self) -> str:
+        return f'Post(id={self.id!r}, title={self.title!r}, author_id={self.author_id!r})'
+
+
+@click.command("init-db")
+def init_db_command():
+    """Clear the existing data e create new tables."""
+    with current_app.app_context():
+        db.create_all()
+    click.echo("Initialized the database.")
+
+def create_app(test_config=None):
+    app = Flask(__name__, instance_relative_config=True)
+    app.config.from_mapping(
+        SECRET_KEY='dev',
+        SQLALCHEMY_DATABASE_URI='sqlite:///blog.sqlite',
+    )
+
+    if test_config is None:
+        # load the instance config, if it exists, when not testing
+        app.config.from_pyfile("config.py", silent=True)
+    else:
+        # load the test config if passed in
+        app.config.from_mapping(test_config)
+
+    try:
+        os.makedirs(app.instance_path)
+    except OSError:
+        pass
+
+    # register cli commands
+    app.cli.add_command(init_db_command)
+
+    # initializing extensions
+    db.init_app(app)
+
+    # register Blueprint
+    from controllers import user_controller
+
+    app.register_blueprint(user_controller.app)
+    #app.register_blueprint(post_controller.app)
+
+    return app

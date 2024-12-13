@@ -1,11 +1,7 @@
-import sys
+from http import HTTPStatus
+
 from flask import Blueprint, request
-
-# caution: path[0] is reserved for script path (or '' in REPL)
-sys.path.insert(1, '/path/to/application/app/folder')
-
-#import src
-from src.app import User
+from app import User, db
 
 app = Blueprint('user', __name__, url_prefix='/users')
 
@@ -21,5 +17,6 @@ def _create_user():
 def handle_user():
     if request.method == 'GET':
         _create_user()
+        return {'message': 'User successfully created'}, HTTPStatus.CREATED
     else:
-        pass
+        return {'users': []}
