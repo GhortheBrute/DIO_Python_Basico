@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f54c141-ac2d-480e-afcd-5114b317f45d" name="Changes" comment="Módulo Banco de Dados concluído.">
-      <change afterPath="$PROJECT_DIR$/11 - Desenvolvimento de APIs com Flask/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11 - Desenvolvimento de APIs com Flask/controllers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11 - Desenvolvimento de APIs com Flask/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11 - Desenvolvimento de APIs com Flask/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11 - Desenvolvimento de APIs com Flask/src/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11 - Desenvolvimento de APIs com Flask/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11 - Desenvolvimento de APIs com Flask/views/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DIO_Python_Basico.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DIO_Python_Basico.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="1f54c141-ac2d-480e-afcd-5114b317f45d" name="Changes" comment="Módulo Rest iniciado.">
+      <change afterPath="$PROJECT_DIR$/11 - Desenvolvimento de APIs com Flask/src/controllers/user_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11 - Desenvolvimento de APIs com Flask/src/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11 - Desenvolvimento de APIs com Flask/src/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11 - Desenvolvimento de APIs com Flask/src/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11 - Desenvolvimento de APIs com Flask/src/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instance/dio_bank.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 - Desenvolvimento de APIs com Flask/controllers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/11 - Desenvolvimento de APIs com Flask/src/app_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 - Desenvolvimento de APIs com Flask/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/11 - Desenvolvimento de APIs com Flask/src/controllers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 - Desenvolvimento de APIs com Flask/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/11 - Desenvolvimento de APIs com Flask/src/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 - Desenvolvimento de APIs com Flask/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/11 - Desenvolvimento de APIs com Flask/src/controllers/post_controller.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
     </list>
@@ -27,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="SQL File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -112,6 +114,11 @@
     "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
     "two.files.diff.last.used.file": "C:/Users/wilde/OneDrive - Grupo Marista/Codes/Python/DIO/Python Basico/DIO_Python_Basico/06 - Gerenciamento de pacotes e boas práticas/Desafios/desafio_base.py",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -169,7 +176,8 @@
       <workItem from="1733712768214" duration="231000" />
       <workItem from="1733713006716" duration="1267000" />
       <workItem from="1733805210773" duration="1302000" />
-      <workItem from="1733928568942" duration="4279000" />
+      <workItem from="1733928568942" duration="4347000" />
+      <workItem from="1734010756458" duration="9302000" />
     </task>
     <task id="LOCAL-00001" summary="Módulo POO concluído.">
       <option name="closed" value="true" />
@@ -251,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733806514438</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Módulo Rest iniciado.">
+      <option name="closed" value="true" />
+      <created>1733936606053</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733936606053</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +298,8 @@
     <MESSAGE value="Módulo DB iniciado." />
     <MESSAGE value="Módulo DB até Consultado os registros." />
     <MESSAGE value="Módulo Banco de Dados concluído." />
-    <option name="LAST_COMMIT_MESSAGE" value="Módulo Banco de Dados concluído." />
+    <MESSAGE value="Módulo Rest iniciado." />
+    <option name="LAST_COMMIT_MESSAGE" value="Módulo Rest iniciado." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DIO_Python_Basico$hello_world.coverage" NAME="hello_world Coverage Results" MODIFIED="1733929118733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11 - Desenvolvimento de APIs com Flask" />
